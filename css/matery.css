@@ -268,11 +268,12 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #4c64ae 0%, #0c4a7b 100%);
+    opacity: 0.8;
 }
 
 .text-color {
-    color: #0f9d58 !important;
+    color: #0c4a7b !important;
 }
 
 .white-color {
@@ -622,7 +623,7 @@ header .go-back i {
 }
 
 @-webkit-keyframes rainbow {
-
+/* 
     0%,
     100% {
         background: rgba(156, 39, 176, 0.75);
@@ -664,11 +665,11 @@ header .go-back i {
         background: linear-gradient(45deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
-    }
+    } */
 }
 
 @keyframes rainbow {
-
+/* 
     0%,
     100% {
         background: rgba(156, 39, 176, 0.75);
@@ -710,7 +711,7 @@ header .go-back i {
         background: linear-gradient(45deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -moz-linear-gradient(135deg, rgba(233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
         background: -webkit-linear-gradient(135deg, rgba(2233, 30, 99, 0.75) 0%, rgba(233, 30, 99, 0.65) 100%);
-    }
+    } */
 }
 
 .index-card {
