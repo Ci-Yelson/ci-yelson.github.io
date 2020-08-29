@@ -435,6 +435,15 @@
                 </div>
                 <div class="col s5 right-align">
                     
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="post-category">
+                                hexo博客搭建
+                            </a>
+                        
+                    </div>
+                    
                 </div>
             </div>
 
@@ -456,7 +465,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    288
+                    338
                 </div>
                 
 
@@ -490,6 +499,7 @@
 <h3 id="步骤："><a href="#步骤：" class="headerlink" title="步骤："></a>步骤：</h3><h4 id="一、node-amp-hexo安装与运行"><a href="#一、node-amp-hexo安装与运行" class="headerlink" title="一、node &amp; hexo安装与运行"></a>一、node &amp; hexo安装与运行</h4><ol>
 <li><p>下载node.js</p>
 <blockquote>
+<p>官网：<a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">https://nodejs.org/zh-cn/</a></p>
 <p>node -v</p>
 <p>npm -v</p>
 </blockquote>
@@ -524,12 +534,12 @@
 <li><p>配置git：cnpm install –save hexo-deployer-git</p>
 </li>
 <li><p>设置_config.yml</p>
-<pre class=" language-yml"><code class="language-yml"># Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: https://github.com/Ci-Yelson/ci-yelson.github.io.git
-  branch: master</code></pre>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token comment" spellcheck="true"># Deployment</span>
+<span class="token comment" spellcheck="true">## Docs: https://hexo.io/docs/one-command-deployment</span>
+<span class="token key atrule">deploy</span><span class="token punctuation">:</span>
+  <span class="token key atrule">type</span><span class="token punctuation">:</span> git
+  <span class="token key atrule">repo</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//github.com/Ci<span class="token punctuation">-</span>Yelson/ci<span class="token punctuation">-</span>yelson.github.io.git
+  <span class="token key atrule">branch</span><span class="token punctuation">:</span> master</code></pre>
 </li>
 <li><p>部署到远端：hexo d</p>
 </li>
@@ -538,14 +548,17 @@ deploy:
 <li><p>下载<code>hexo-theme-matery</code>主题文件于<code>themes</code>文件夹中</p>
 </li>
 <li><p>设置_config.yml</p>
-<pre class=" language-yml"><code class="language-yml"># Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: hexo-theme-matery</code></pre>
-<pre class=" language-C++"><code class="language-C++">#include<iostream>
-//???</code></pre>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token comment" spellcheck="true"># Extensions</span>
+<span class="token comment" spellcheck="true">## Plugins: https://hexo.io/plugins/</span>
+<span class="token comment" spellcheck="true">## Themes: https://hexo.io/themes/</span>
+<span class="token key atrule">theme</span><span class="token punctuation">:</span> hexo<span class="token punctuation">-</span>theme<span class="token punctuation">-</span>matery</code></pre>
 </li>
 </ol>
+<h3 id="存在问题"><a href="#存在问题" class="headerlink" title="存在问题"></a>存在问题</h3><p><strong>代码部分大括号显示出错</strong></p>
+<pre class=" language-c"><code class="language-c"><span class="token comment" spellcheck="true">//代码高亮部分存在问题：大括号会变成&amp;#123和&amp;#125。</span>
+<span class="token macro property">#<span class="token directive keyword">include</span><span class="token string">&lt;iostream></span></span>
+<span class="token keyword">void</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>   </code></pre>
 
             </div>
             <hr/>
@@ -648,9 +661,52 @@ theme: hexo-theme-matery</code></pre>
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2020/08/29/Typing-Pro/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Typing Pro">
+                        
+                        <span class="card-title">Typing Pro</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            序：Typing 练习网站
+https://www.typing.com
+
+
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-08-29
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Computer%E3%81%AE%E8%87%AA%E6%88%91%E4%BF%AE%E5%85%BB/" class="post-category">
+                                    Computerの自我修养
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
                 <a href="/2020/08/29/hexo-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/">
@@ -665,12 +721,7 @@ theme: hexo-theme-matery</code></pre>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            参考
-【干货】Luke教你20分钟快速搭建个人博客系列(hexo篇) | 自动化部署在线编辑统…
-https://www.bilibili.com/video/BV1dt4y1Q7UE
-
-
-手把手教你从0开始搭建自己的个人博客 |无坑版视频
+                            hexo博客搭建——涉及node安装、hexo安装、hexo-theme-matery主题设置
                         
                     </div>
                     <div class="publish-info">
@@ -679,50 +730,17 @@ https://www.bilibili.com/video/BV1dt4y1Q7UE
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Ci Yelson
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" class="post-category">
+                                    hexo博客搭建
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
 
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2020/08/28/hello-world/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                        
-                        <span class="card-title">Hello World</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-08-28
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            Ci Yelson
-                            
-                        </span>
-                    </div>
-                </div>
                 
             </div>
         </div>
